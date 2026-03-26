@@ -7,3 +7,37 @@
         "link": "https://ton-discord.com"
     }
 ]
+{
+  "version": "1.0.0",
+  "servers": [
+    {
+      "id": "modded-studio",
+      "name": "Modded Studio",
+      "description": "Serveur NeoForge 1.21.1",
+      "icon": "https://raw.githubusercontent.com/Tombo/ModdedStudio-Files/main/icon.png",
+      "address": "ton-ip-ici:25565",
+      "mainServer": true,
+      "autoconnect": false,
+      "news": [
+        {
+          "title": "Bienvenue sur Modded Studio !",
+          "author": "Tom",
+          "date": "2024-03-26T12:00:00Z",
+          "content": "Le launcher est en ligne en 1.21.1 NeoForge. Bon jeu !"
+        }
+      ],
+      "modules": [
+        {
+          "id": "neoforge",
+          "name": "NeoForge Loader",
+          "type": "Library",
+          "artifact": {
+            "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.27/neoforge-21.1.27-installer.jar",
+            "size": 0,
+            "MD5": ""
+          }
+        }
+      ]
+    }
+  ]
+}

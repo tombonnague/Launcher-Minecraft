@@ -6,7 +6,7 @@
       "name": "Modded Studio",
       "description": "Serveur NeoForge 1.21.1",
       "icon": "https://raw.githubusercontent.com/tombonnague/Launcher-Minecraft/main/icon.png",
-      "address": "ton-ip-ici:25565",
+      "address": "localhost:25565",
       "mainServer": true,
       "autoconnect": false,
       "news": [
